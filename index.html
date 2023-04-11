@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Rover Operator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Rover Operator</h1>
+    <button onclick="getMap()">Retrieve Map</button>
+    <br><br>
+    <button onclick="putMap()">Update Map</button>
+    <label for="xdim">New X Dimension:</label>
+    <input type="number" id="xdim" name="xdim">
+    <label for="ydim">New Y Dimension:</label>
+    <input type="number" id="ydim" name="ydim">
+    <br><br>
+    <button onclick="getMines()">Retrieve Mines</button>
+    <br><br>
+    <button onclick="getMinesid()">Retrieve Mine by Id</button>
+    <label for="mineId">Mine Id:</label>
+    <input type="number" id="mineId" name="mineId">
+    <br><br>
+    <button onclick="deleteMineid()">Delete Mine by Id</button>
+    <label for="DelMineId">Mine id:</label>
+    <input type="number" id="DelMineId" name="DelMineId">
+    <br><br>
+    <button onclick="postMine()">Create Mine</button>
+    <label for="PostxMine">x coordinate:</label>
+    <input type="number" id="PostxMine" name="PostxMine">
+    <label for="PostyMine">y coordinate:</label>
+    <input type="number" id="PostyMine" name="PostyMine">
+    <label for="Postserial_numMine">Serial number:</label>
+    <input type="number" id="Postserial_numMine" name="Postserial_numMine">
+    <br><br>
+    <button onclick="putMine()">Update Mine</button>
+    <label for="PutmineId">Mine id:</label>
+    <input type="number" id="PutmineId" name="PutmineId">
+    <label for="PutxMine">x coordinate:</label>
+    <input type="number" id="PutxMine" name="PutxMine">
+    <label for="PutyMine">y coordinate:</label>
+    <input type="number" id="PutyMine" name="PutyMine">
+    <label for="Putserial_numMine">Serial number:</label>
+    <input type="number" id="Putserial_numMine" name="Putserial_numMine">
+    <br><br>
+    <button onclick="getrovers()">Retrieve Rovers</button>
+    <br><br>
+    <button onclick="getRoverById()">Retrieve Rover by Id</button>
+    <label for="getroverId">Rover id:</label>
+    <input type="number" id="getroverId" name="getroverId">
+    <br><br>
+    <button onclick="postRover()">Create Rover</button>
+    <label for="createrovermoves">Rover Moves:</label>
+    <input type="text" id="createrovermoves" name="createrovermoves">
+    <br><br>
+    <button onclick="deleteRoverById()">Delete Rover by Id</button>
+    <label for="DelroverId">Rover id:</label>
+    <input type="number" id="DelroverId" name="DelroverId">
+    <br><br>
+    <button onclick="UpdateRoverById()">Update Rover</button>
+    <label for="UproverId">Rover id:</label>
+    <input type="number" id="UproverId" name="UproverId">
+    <label for="UproverStat">Rover Status:</label>
+    <input type="text" id="UproverStat" name="UproverStat">
+    <label for="UproverX">X Coordinate:</label>
+    <input type="number" id="UproverX" name="UproverX">
+    <label for="UproverY">Y Coordinate:</label>
+    <input type="number" id="UproverY" name="UproverY">
+    <label for="UproverMoves">Rover Moves:</label>
+    <input type="text" id="UproverMoves" name="UproverMoves">
+    <br><br>
+    <button onclick="dispatchRoverById()">Dispatch Rover</button>
+    <label for="DisproverId">Rover id:</label>
+    <input type="number" id="DisproverId2" name="DisproverId">
+    <br><br>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
